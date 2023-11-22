@@ -1,0 +1,84 @@
+body{
+    font-family: Verdana, sans-serif; 
+    font-size: 18px; 
+    color: green;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: min(5px)
+}
+header{
+    padding: min(5px)
+}
+p{
+    width: 900px;
+    padding: 0px 0px 12px 38px;
+}
+h1{
+    text-align: left;
+    margin-left: 200px;
+    width: 900px;
+}
+h2{
+    text-align: left;
+    color: rgb(104, 160, 104);
+    width: 900px;
+    padding: 12px 0px 12px 38px;
+}
+h3{
+    width: 900px;
+    font-family: Verdana, sans-serif; 
+    font-size: 19px; 
+    color: rgb(104, 160, 104);
+    padding: 12px 0px 12px 38px;
+}
+h4{
+    width: 900px;
+    padding: 0px 0px 12px 38px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+     border-left: 2px solid rgb(253, 159, 51);
+    border-right: 1px solid rgb(253, 159, 51);
+    background-color: rgb(52, 82, 54);
+}
+li:hover{
+    background-color: rgb(112, 253, 112);
+    border-style: solid;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px 0px 38px;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 15px;
+    background-color:rgb(52, 82, 54);
+    color:rgb(255, 255, 255);
+}
+button:active{
+    background-color: rgb(112, 253, 112);
+    color:rgb(255, 255, 255);
+}
+footer{
+    color: rgb(30, 46, 30);
+    padding: min(5px)
+}
+a{
+    color: rgb(104, 160, 104);
+    padding:38px
+}
+a:hover{
+    color:rgb(255, 255, 255);
+}
+
+
+
